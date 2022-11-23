@@ -1,10 +1,15 @@
 .back{
-    background-image: url("/images/Paul.JPG")
+    background-image: url("/images/Paul.jpg"), url("/images/Paul2.jpg"), url("/images/Paul3.jpg"), url("/images/EUR.jpg");
+    background-size: contain;
+    background-position: center, right ,left;
+    background-repeat: no-repeat,no-repeat,no-repeat;
 }
 
 h1{
     text-align: center;
-    
+    color: rgb(255, 255, 255);
+    font-family: Brush Script MT;
+    font-size: 300%;
 }
 
 .Centered{
@@ -26,3 +31,64 @@ h1{
     float: right;
 }
 
+.pull-left{
+    float: left;
+}
+
+#familyBg{
+    background-image: url("/images/familyBg.jpg");
+    background-position: bottom 100px;
+    background-repeat: no-repeat;
+}
+
+#relatives{
+    color: rgb(255, 6, 6);
+    font-size: 400%;
+    text-decoration: underline;
+
+}
+
+.Family{
+    display: inline;
+    padding: 10px 50px; 
+    color: rgb(255, 255, 255);
+    font-size: 200%;
+    font-family:Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+}
+
+#photoPapa{
+    height: 10%;
+    width: 10%;
+}
+
+#photoMaman{
+    height: 10%;
+    width: 10%;
+}
+
+#photoEmma{
+    height: 10%;
+    width: 10%;
+}
+
+#photoEve{
+    height: 10%;
+    width: 5%;
+}
+
+#photoMartin{
+    height: 10%;
+    width: 5%;
+}
+
+.FamilyPics{
+    display: inline;
+    padding: 10px 90px; 
+    
+}
+
+
+.cvTitle{
+    text-decoration: underline;
+}
