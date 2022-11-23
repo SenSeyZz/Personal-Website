@@ -1,5 +1,5 @@
 .back{
-    background-image: url("/images/Paul.jpg"), url("/images/Paul2.jpg"), url("/images/Paul3.jpg"), url("/images/EUR.jpg");
+    background-image:url("/images/Paul.jpg"), url("/images/Paul2.jpg"), url("/images/Paul3.jpg"), url("/images/EUR.jpg");
     background-size: contain;
     background-position: center, right ,left;
     background-repeat: no-repeat,no-repeat,no-repeat;
