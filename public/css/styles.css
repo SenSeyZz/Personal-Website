@@ -1,0 +1,28 @@
+.back{
+    background-image: url("/images/Paul.JPG")
+}
+
+h1{
+    text-align: center;
+    
+}
+
+.Centered{
+    text-align: center;
+}
+
+.Centered-list{
+    list-style-position: inside;
+    text-align: center;
+}
+
+#profilePaul{
+    position: relative;
+    top: -100px;
+    left: 1500px;
+}
+
+.pull-right{
+    float: right;
+}
+
