@@ -1,8 +1,9 @@
 .back{
-    background-image:url("/images/Paul.jpg"), url("/images/Paul2.jpg"), url("/images/Paul3.jpg"), url("/images/EUR.jpg");
+    background-image:url("/images/Paultaille.jpg"),url("/images/Paul2.jpg"), url("/images/Paul3.jpg"), url("/images/EUR.jpg");
     background-size: contain;
-    background-position: center, right ,left;
-    background-repeat: no-repeat,no-repeat,no-repeat;
+    background-position: center, left ,right;
+    background-repeat: no-repeat;
+    background-color: black;
 }
 
 h1{
@@ -15,6 +16,7 @@ h1{
 .Centered{
     text-align: center;
 }
+
 
 .Centered-list{
     list-style-position: inside;
@@ -30,6 +32,14 @@ h1{
     float: left;
 }
 
+.Btn{
+    font-size: 30px;
+    color:black;
+    border:2px solid white;
+    border-color:red;
+    border-width: 3px;
+}
+
 #familyBg{
     background-image: url("/images/familyBg.jpg");
     background-position: bottom 100px;
@@ -43,46 +53,57 @@ h1{
 
 }
 
+.fadedBg{
+    background-image: url("/images/fadeBg.jpg");
+    background-size: contain;
+    background-position: center;
+    background-repeat:repeat;
+}
+
 .Family{
-    display: inline;
     padding: 2% 3%; 
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     font-size: 200%;
     font-family:Arial, Helvetica, sans-serif;
     text-decoration: underline;
+    text-indent: -50px;
 }
 
 #photoPapa{
+    margin-right: 1.2em;
     height: 10%;
     width: 10%;
 }
 
 #photoMaman{
+    margin-right: 1.2em;
     height: 10%;
     width: 10%;
 }
 
 #photoEmma{
+    margin-right: 1.2em;
     height: 10%;
     width: 10%;
 }
 
 #photoEve{
+    margin-right: 8em;
     height: 10%;
     width: 5%;
 }
 
 #photoMartin{
+    margin-right: 8em;
     height: 10%;
     width: 5%;
 }
 
 .FamilyPics{
-    display: inline;
+    float: left;
+    position:relative;
     padding: 2% 4%; 
-    
 }
-
 
 .cvTitle{
     text-decoration: underline;
