@@ -19,29 +19,26 @@
 
 /* Website */
 
+.text{
+    text-decoration: underline;
+    font-size: 200%;
+    color: aqua;
+}
 
 .box {
     display: flex;
     align-items:center;
  }
 
-h1{
-    text-align: center;
-    color: rgb(0, 0, 0);
-    font-family: Brush Script MT;
-    font-size: 300%;
-}
 
 .Centered{
     text-align: center;
 }
 
-
 .Centered-list{
     list-style-position: inside;
     text-align: center;
 }
-
 
 .pull-right{
     float: right;

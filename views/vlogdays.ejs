@@ -1,0 +1,27 @@
+<%- include("partials/header.ejs") %> 
+
+     <%if (day === "day1"){ %>
+        <h1><%= day %> </h1>
+
+            <video width="20%" controls>
+                <source src="/videos/Day1/day1WakeUp.MOV">
+            </video>
+            <p class="text"> 1er réveille</p>
+
+            <br><br><br><br>
+
+            <video width="20%" controls>
+                <source src="/videos/Day1/day1Sport.MOV">
+            </video>
+            <p class="text"> départ à la salle de sport</p>
+
+
+        
+        
+        
+
+    <%}else { %>
+        <h1><%= day %> </h1>
+    <%}%>
+
+</body>
