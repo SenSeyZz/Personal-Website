@@ -15,13 +15,24 @@
             </video>
             <p class="text"> départ à la salle de sport</p>
 
-
-        
-        
-        
-
-    <%}else { %>
+    <%}else if (day === "day2") { %>
         <h1><%= day %> </h1>
+
+        <video width="20%" controls>
+            <source src="/videos/Day2/reveille.MOV">
+        </video>
+        <p class="text"> 2ème réveille</p>
+
+        <video width="20%" controls>
+            <source src="/videos/Day2/depart.MOV">
+        </video>
+        <p class="text"> Départ à la salle de sport</p>
+
+        <video width="20%" controls>
+            <source src="/videos/Day2/retour.MOV">
+        </video>
+        <p class="text">Débrief retour de la salle</p>
+
     <%}%>
 
 </body>
